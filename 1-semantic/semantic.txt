@@ -1,0 +1,10 @@
+contoh semantic element html 5
+<main>
+<nav>
+<section>
+<header>
+<footer>
+<article>
+<aside>
+
+jika ingin menambahkan semantic pada element yang tidak semantic dengan menambahkan WAI-ARIA
