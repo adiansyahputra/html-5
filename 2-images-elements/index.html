@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Image Elements</title>
+        <style>
+            body {
+                font-family: sans-serif;
+                min-height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 1.125em;
+                line-height: 1.6;
+                color: #333;
+                padding: 2em;
+            }
+
+            .hero {
+                display: grid;
+                gap: 2em;
+                align-items: center;
+            }
+
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            @media (min-width: 960px) {
+                .hero {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <!-- <h1 style="margin-bottom: 1500px">Image Elements</h1>
+
+        <img src="img/donut-small.jpg" alt="Kucing abu-abu" srcset="img/donut-small.jpg 500w, img/donut-medium.jpg 750w img/donut-large.jpg 1000w" sizes="(min-width: 1200px) 50vw" loading="lazy" /> -->
+
+        <div class="hero">
+            <div class="hero-text">
+                <h1>Hello WPU</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, culpa omnis. Ducimus tenetur cumque molestiae laudantium numquam nemo magni illum ea dignissimos, totam perspiciatis nesciunt consequatur voluptatibus
+                    doloribus reprehenderit laborum.
+                </p>
+            </div>
+            <picture>
+                <source media="(min-width: 960px)" srcset="img2/donut-large.jpg" sizes="50vw" />
+                <source media="(min-width: 600px)" srcset="img2/donut-medium.jpg" />
+                <img src="img2/donat-small.jpg" alt="donut" />
+            </picture>
+        </div>
+    </body>
+</html>

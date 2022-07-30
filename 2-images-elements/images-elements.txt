@@ -1,0 +1,54 @@
+media elements
+<img>
+<figure>
+<picture>
+<audio>
+<video>
+
+<img> attributes
+-src
+-alt 
+-width & height
+-title 
+-srcset 
+-sizes 
+
+src 
+-atribut wajib
+-berisi path / lokasi tempat penyimpanan gambar 
+-tipe gambar yang biasa dipakai: png, jpg, jpeg, gif, svg, webp, avif 
+-perhatikan mengenai copyright 
+-jangan lakukan 'hotlinking' 
+
+alt 
+-alternative text 
+-deskripsi tekstual dari gambar 
+-digunakan ketika gambar tidak bisa ditampilkan
+-digunakan juga agar dibaca oleh screen reader 
+-bisa digunakan juga untuk seo 
+-jika disimpan di dalam link, tulisan url link nya 
+
+title 
+-untuk menuliskan informasi tambahan mengenai gambar 
+-menambahkan tooltip saat hover 
+
+srcset 
+-untuk membuat halaman web responsive
+-memilih gambar yang berbeda berdasarkan syarat tertentu
+-bisa berdasarkan lebar layar atau kerapatan pixel nya
+
+sizes
+-Untuk mengatur ukuran gambar yang berbeda berdasarkan "media condition"
+
+loading 
+-menentukan bagaimana gambar di-load oleh browser 
+-bisa di isi "eager" (default) atau 'lazy'
+
+figure 
+-merepresentasikan konten yang berdiri sendiri tanpa mempengaruhi flow halaman
+-bisa gambar, ilustrasi, diagram, code snippet 
+-biasanya gambar yang memiliki caption, menggunakan <figcaption>
+
+picture 
+-bertujuan untuk optimasi halaman agar menghemat bandwith dan mempercepat load time 
+-bisa digunakan juga sebagai art direction, untuk menampilkan gambar yang berbeda pada display / device yang berbeda
