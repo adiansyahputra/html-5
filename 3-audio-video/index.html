@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Audio & Video</title>
+        <style>
+            /* body,
+            h1 {
+                padding: 0;
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .hero {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                background-image: linear-gradient(to right, rgba(122, 255, 122, 0.3), rgba(114, 114, 255, 0.3));
+                color: rgba(255, 255, 255, 0.5);
+                font-size: 3em;
+                position: relative;
+                min-height: 100vh;
+                overflow: hidden;
+            }
+
+            .video-bg {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                min-height: 100%;
+                min-width: 100%;
+                z-index: -1;
+            } */
+        </style>
+    </head>
+    <body>
+        <!-- <audio src="audio/1.mp3" controls></audio> -->
+        <!-- <figure>
+            <figcaption>Dengarkan "Audio ini"</figcaption>
+            <audio controls loop muted>
+                <source src="audio/1.mp3" type="audio/mpeg" />
+            </audio>
+        </figure> -->
+
+        <!-- <video src="video/1.mp4" width="400" controls></video> -->
+
+        <!-- <figure>
+            <figcaption>Video ini</figcaption>
+            <video width="400" poster="../2-images-elements/img2/donut-large.jpg" loop autoplay muted>
+                <source src="video/1.mp4" type="video/mp4" />
+                Browser tidak mendukung tag <code>video</code>
+            </video>
+        </figure> -->
+
+        <!-- <div class="hero">
+            <h1>Welcome to WPU</h1>
+            <video class="video-bg" src="video/1.mp4" autoplay muted></video>
+        </div> -->
+
+        <video width="400" controls>
+            <source src="video/1.mp4" type="video/mp4" />
+            <track src="captions/caption2.vtt" kind="captions" title="Bahasa Indonesia" srclang="id" />
+            <track src="captions/caption2.vtt" kind="captions" title="English" srclang="en" />
+        </video>
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/_c2YNpWP57Y"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+        ></iframe>
+    </body>
+</html>

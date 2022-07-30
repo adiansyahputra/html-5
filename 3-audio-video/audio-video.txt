@@ -1,0 +1,27 @@
+<audio> attributes 
+-src 
+-controls 
+-preload 
+-autoplay 
+-loop 
+-muted 
+-digunakan untuk menjalankan file audio 
+-file yang didukung: .mp3, .wav, .ogg 
+-bisa menggunakan tag <source> untuk memilih audio 
+
+<video> attributes 
+-src 
+-controls 
+-poster 
+-preload 
+-autoplay 
+-loop 
+-muted 
+-width 
+-height
+
+<track> attributes 
+-src 
+-kind 
+-title 
+-srclang 
