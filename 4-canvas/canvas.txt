@@ -1,0 +1,32 @@
+canvas
+elemen canvas dapat digunakan untuk menampilkan grafis, seni, atau gambar secara langsung menggunakan script
+-digunakan untuk menggambar grafis menggunakan javascript 
+-biasa digunakan untuk membuat: animasi, game, visualisasi data, manipulasi foto dan pemrosesan video secara real-time 
+-dapat berisi object 2d atau 3d
+-menggunakan Canvas API atau WebGL API 
+
+<canvas> attributes 
+-width 
+-height 
+
+Canvas API 
+Canvas API menyediakan cara untuk menggambar grafis 2d menggunakan javascript
+
+Canvas API shapes 
+-Rectangle 
+-Arc / circle
+-Path 
+-Bezier & Quadratic Curve 
+
+Canvas 3rd party library 
+-D3.js 
+-three.js 
+-p5.js 
+-matter.js 
+-phaser 
+-babylon.js 
+
+Animasi Canvas 
+Canvas API animation 
+-requestAnimationFrame()
+-clearRect()
