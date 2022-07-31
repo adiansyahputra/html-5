@@ -1,0 +1,37 @@
+<svg>
+Scalable Vector Graphics adalah elemen berbasis XML yang digunakan untuk mendeskripsikan grafis vektor 2 dimensi.
+-digunakan untuk membuat gambar yang tidak akan hilang kualitasnya meskipun diperbesar 
+-bisa dengan cara membuat sendiri garis dan bentuknya 
+-atau dengan menggunakan grafis svg terpisah (.svg) 
+-setiap elemen di dalam svg dapat dimanipulasi menggunakan bantuan css 
+-didukung oleh kebanyakan browser modern 
+
+keuntungan svg 
+-scalability 
+-interactivity 
+-easily editable 
+-compact file-size 
+-SEO friendly 
+
+svg basic shapes 
+-rectangle 
+-circle 
+-ellipse 
+-line 
+-polyline 
+-polygon 
+-path 
+
+Path Commands 
+-MoveTo: M, m 
+-LineTo: L, l, H, h, V, v 
+-Cubic Bezier Curve: C, c, S, s 
+-Quadratic Bezier CUrve: Q, q, T, t 
+-Elliptical Arc Curve: A, a 
+https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa1lqYVpDbEtlUUpBVzY1NndXZGVPODN4aVQ1d3xBQ3Jtc0ttOGtIZ29nTUlpVTZUMDMyRDZMbHFRaGlLUDRLRlN1UWRfcnlTeEFWdlZqeVRRVmNvZER2bUtmT0Uta3VjZjZOTlFWQjFKRGhlN3RtOER2NUZxNDc2R2RCQzlHVUZ4T09CRExpTUgxa1hIMXltRnRRbw&q=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FSVG&v=qfn67VjdgZE
+
+SVG Resources 
+blobmaker.app 
+shapedivider.app 
+svgrepo.com 
+simpleicons.org
