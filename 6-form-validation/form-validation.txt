@@ -1,0 +1,30 @@
+Built-in Validation 
+-Input types 
+-Attributes 
+
+HTML5 Input Types 
+-email 
+-tel 
+-url 
+-number 
+-range 
+-datetime picker 
+-color picker
+
+HTML5 Input Attributes 
+-autocomplete (input / form)
+-autofocus 
+-required 
+-minlength & maxlength 
+-min & max 
+-step 
+-pattern
+
+CSS Validation pseudo-class 
+:required
+:valid 
+:invalid
+
+JavaScript custom Validation 
+-oninvalid 
+-setCustomValidity()
