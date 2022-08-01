@@ -1,0 +1,25 @@
+Web Storage 
+Web API yang menyediakan mekanisme untuk menyimpan nilai (key / value pair) yang lebih intuitif dari pada cookie.
+-Local Storage 
+-Session Storage
+
+Local Storage Vs Session Storage Vs Cookies 
+https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa1VZZ1hWeG9aeEtDdEVKR29zVW9PM1lzeTdXUXxBQ3Jtc0tuRkpkcFBrT2FkOThpMl9hRnpoX2JNbkhJanNrYzBia0pIcEZVOHdwTk03OGtlS2dsNUNfSnNTQUFOaGp3di1UT2JLUms1cFhvN1ZrSTRvU1pfeWJPdmZiVzZGdHdvanAxQlN2TlVSWTE0WGdZRmFOTQ&q=https%3A%2F%2Fcodepen.io%2Fbeaucarnes%2Fpen%2FKmeRMx&v=T-a7tX0tCuQ
+
+Digunakan untuk 
+-Preferensi User ex. Darkmode 
+-Setting & configuration 
+-Score & leaderboards pada game 
+-Posisi video / audio terakhir 
+
+Jangan Digunakan untuk 
+-Data sensitif 
+-Otentikasi 
+
+localStorage & sessionStorage Properties 
+-setItem(key, value) - menyimpan pasangan key/value
+-getItem(key) - mengambil value berdasarkan key 
+-removeItem(key) - menghapus nilai pasangan key/value 
+-clear() - menghapus semua isi storage 
+-key(index) - mengambil nilai key berdasarkan index 
+-length -mengetahui jumlah nilai di dalam storage
